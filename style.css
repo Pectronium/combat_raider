@@ -38,6 +38,10 @@ body, html {
     text-align: center;
 }
 
+.content {
+    position: absolute;
+    z-index: 1;
+}
 /* --- TITLE IMAGE --- */
 .title-image {
     width: 70%;
@@ -115,6 +119,11 @@ body, html {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+.screenshots {
+    position: absolute;
+    z-index: 10;
 }
 
 .screenshots.left {
