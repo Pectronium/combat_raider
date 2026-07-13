@@ -175,4 +175,14 @@ body, html {
     font-size: 0.9rem;
     text-shadow: 0 3px 8px rgba(0,0,0,0.3);
     opacity: 0.85;
+    padding-right: 60px; /* gives room for the logo */
+}
+
+.footer-logo {
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+    width: 50px;   /* adjust size as needed */
+    height: auto;
+    opacity: 0.9;
 }
