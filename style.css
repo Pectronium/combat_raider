@@ -28,12 +28,13 @@ body, html {
     text-align: center;
 }
 
-/* --- TITLE --- */
-.title {
-    font-size: 3rem;
-    color: #ffffff;
-    text-shadow: 0 3px 8px rgba(0,0,0,0.3);
+/* --- TITLE IMAGE --- */
+.title-image {
+    width: 70%;
+    max-width: 600px;
+    height: auto;
     margin-bottom: 2rem;
+    filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
 }
 
 /* --- BUTTONS --- */
