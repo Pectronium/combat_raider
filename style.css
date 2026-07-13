@@ -74,6 +74,20 @@ body, html {
     transform: translateY(-3px);
 }
 
+/* DESKTOP: buttons in one row */
+@media (min-width: 900px) {
+    .buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1.1rem;
+        padding: 0.9rem 1.4rem;
+        white-space: nowrap;
+    }
+}
 /* --- JUNGLE HORIZON --- */
 .horizon {
     position: absolute;
