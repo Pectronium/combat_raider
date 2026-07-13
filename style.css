@@ -45,6 +45,9 @@ body, html {
     margin-bottom: 2rem;
     font-weight: bold;
 }
+.promo-text p {
+    margin-bottom: 1.5rem;
+}
 
 /* --- BUTTONS --- */
 .buttons {
