@@ -195,3 +195,32 @@ body, html {
     height: auto;
     opacity: 0.9;
 }
+
+/* MOBILE: stack screenshots vertically */
+@media (max-width: 700px) {
+    .screenshots {
+        position: static;      /* stop absolute positioning */
+        width: 90%;            /* full width on mobile */
+        margin: 1rem auto;     /* center them */
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .screenshots.left,
+    .screenshots.right {
+        left: auto;
+        right: auto;
+    }
+
+    .thumb {
+        width: 100%;           /* scale nicely */
+        max-width: 300px;      /* optional: prevent huge images */
+    }
+
+    .content {
+        position: static;      /* let content flow naturally */
+        margin-top: 2rem;
+        text-align: center;
+    }
+}
