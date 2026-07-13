@@ -134,3 +134,35 @@ body, html {
     height: auto;
     pointer-events: none;
 }
+
+/* --- UPDATE SECTION --- */
+.update-section {
+    margin-top: 2rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+.update-icon {
+    width: 40px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.update-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* --- FOOTER --- */
+.footer {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-shadow: 0 3px 8px rgba(0,0,0,0.3);
+    opacity: 0.85;
+}
