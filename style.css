@@ -196,12 +196,13 @@ body, html {
     opacity: 0.9;
 }
 
-/* MOBILE: stack screenshots vertically */
 @media (max-width: 700px) {
+
+    /* turn screenshots into normal block elements */
     .screenshots {
-        position: static;      /* stop absolute positioning */
-        width: 90%;            /* full width on mobile */
-        margin: 1rem auto;     /* center them */
+        position: static;
+        width: 90%;
+        margin: 1rem auto;
         flex-direction: column;
         align-items: center;
         gap: 1rem;
@@ -213,14 +214,24 @@ body, html {
         right: auto;
     }
 
-    .thumb {
-        width: 100%;           /* scale nicely */
-        max-width: 300px;      /* optional: prevent huge images */
+    /* move screenshots BELOW the title */
+    .screenshots.left {
+        margin-top: 2rem; /* pushes them below the title */
     }
 
+    .screenshots.right {
+        margin-top: 1rem;
+    }
+
+    /* let content flow naturally */
     .content {
-        position: static;      /* let content flow naturally */
+        position: static;
         margin-top: 2rem;
         text-align: center;
+    }
+
+    .thumb {
+        width: 100%;
+        max-width: 300px;
     }
 }
