@@ -9,7 +9,8 @@
 body, html {
     height: 100%;
     font-family: Arial, sans-serif;
-    background: linear-gradient(#7ec8ff, #bfe8ff);
+    /*background: linear-gradient(#7ec8ff, #bfe8ff);*/
+    background: linear-gradient(#000000, #FF3030);
     overflow-x: hidden;
 }
 
