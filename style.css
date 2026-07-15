@@ -102,12 +102,14 @@ body, html {
         white-space: nowrap;
     }
 }
-/* --- JUNGLE HORIZON --- */
 .horizon {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: auto;
+    height: 80px; /* height of the horizon strip */
+    background-image: url('horizon.png'); /* your repeating horizon image */
+    background-repeat: repeat-x; /* repeat horizontally */
+    background-size: contain; /* keeps crisp pixel edges */
     pointer-events: none;
 }
 
