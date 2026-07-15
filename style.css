@@ -107,7 +107,7 @@ body, html {
     bottom: 0;
     width: 100%;
     height: 380px; /* height of the horizon strip */
-    background-image: url('black-horizon.png'); /* your repeating horizon image */
+    background-image: url('horizon.png'); /* your repeating horizon image */
     background-repeat: repeat-x; /* repeat horizontally */
     background-size: contain; /* keeps crisp pixel edges */
     pointer-events: none;
