@@ -152,14 +152,6 @@ body, html {
     transform: scale(1.05);
 }
 
-/* --- JUNGLE HORIZON --- */
-.horizon {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    pointer-events: none;
-}
 
 /* --- UPDATE SECTION --- */
 .update-section {
