@@ -136,7 +136,8 @@ body, html {
 
 .thumb {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 4px; /* tighter radius feels more retro */
+    border: 4px solid #ffcc00; /* classic yellow arcade border */
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     transition: transform 0.15s ease;
 }
