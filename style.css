@@ -140,10 +140,10 @@ body, html {
 
 .thumb {
     width: 100%;
-    border-radius: 4px; /* tighter radius feels more retro */
+    border-radius: 2px; /* tighter radius feels more retro */
     border: 2px solid #EEbb00; /* classic yellow arcade border */
    box-shadow:
-        0 0 0 4px #ffcc00,        /* yellow border */
+        0 0 0 2px #EEbb00,        /* yellow border */
         inset 0 0 12px rgba(255,255,0,0.4), /* inner glow */
         0 4px 10px rgba(0,0,0,0.3); /* existing shadow */
     transition: transform 0.15s ease;
