@@ -238,4 +238,8 @@ body, html {
         margin: 1rem auto 0 auto;
         width: 150px;
     }
+
+    .horizon {
+        display: none !important;
+    }
 }
