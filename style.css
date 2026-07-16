@@ -49,8 +49,8 @@ body, html {
 }
 /* --- TITLE IMAGE --- */
 .title-image {
-    width: 80%;
-    max-width: 600px;
+    width: 70%;
+    max-width: 500px;
     height: auto;
     margin-bottom: 1.5rem;
     filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
