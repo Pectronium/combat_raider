@@ -43,6 +43,10 @@ body, html {
     z-index: 11;
     pointer-events: none;
 }
+
+.content .btn {
+    pointer-events: auto;
+}
 /* --- TITLE IMAGE --- */
 .title-image {
     width: 70%;
